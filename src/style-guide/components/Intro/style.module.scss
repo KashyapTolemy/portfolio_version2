@@ -1,0 +1,38 @@
+@use "../../../styles/mixins.scss";
+
+.intro_container {
+    padding-left: 25%;
+
+    .name {
+        padding-top: 15%;
+        font-size: 4rem;
+        font-family: "Anton", serif;
+        font-weight: 700;
+    }
+
+    .position {
+        font-size: 1.75rem;
+        padding-bottom: 5%;
+    }
+
+
+    .small_intro {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+
+}
+
+@media (min-width:351px) and (max-width: 900px) {
+    .intro_container {
+        padding-left: 10%;
+    }
+}
+@media (max-width: 350px) {
+    .intro_container {
+        padding-left: 10%;
+        .small_intro {
+            width: 80%;
+        }
+    }
+}

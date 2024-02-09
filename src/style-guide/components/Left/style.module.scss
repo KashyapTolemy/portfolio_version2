@@ -1,0 +1,16 @@
+@use "../../../styles/mixins.scss";
+
+.left_container
+{
+    width: 50vw;
+    height: 100vh;
+    border: 0.1rem solid black;
+    overflow-y: hidden;
+}
+
+
+@media (max-width: 900px) {
+    .left_container {
+        width:100vw
+    }
+}

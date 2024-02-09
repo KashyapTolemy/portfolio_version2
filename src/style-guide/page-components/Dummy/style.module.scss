@@ -1,0 +1,13 @@
+@use "../../../styles/mixins.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

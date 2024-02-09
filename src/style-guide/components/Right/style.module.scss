@@ -1,0 +1,15 @@
+@use "../../../styles/mixins.scss";
+
+.right_container
+{
+    width: 50vw;
+    height: 100vh;
+    border: 0.1rem solid black;
+    overflow-y: scroll;
+}
+
+@media (max-width: 900px) {
+    .right_container {
+        width:100vw
+    }
+}
