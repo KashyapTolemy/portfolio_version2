@@ -1,1 +1,34 @@
 @use "../../../styles/mixins.scss";
+
+.navbar_container {
+    padding-top: 10vh;
+    height: 30vh;
+
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            text-decoration: none;
+            padding-bottom: 1rem;
+            transition: transform 0.3s, opacity 0.3s;
+            font-size: 1.15rem;
+
+            &:active {
+                transform: scale(1.1) translateX(2rem);
+            }
+
+            &:hover {
+                transform: scale(1.1) translateX(2rem);
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 900px) {
+    .navbar_container {
+        display: none;
+    }
+}

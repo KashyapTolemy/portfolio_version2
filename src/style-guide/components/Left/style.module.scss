@@ -11,6 +11,7 @@
 
 @media (max-width: 900px) {
     .left_container {
-        width:100vw
+        width:100vw;
+        overflow-y: scroll;
     }
 }

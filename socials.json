@@ -1,0 +1,27 @@
+[
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/tolemy-kashyap/",
+      "type": "skill-icons"
+    },
+    {
+      "name": "instagram",
+      "link": "https://www.instagram.com/tolemy_kashyap//",
+      "type": "skill-icons"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/KashyapTolemy",
+      "type": "cib"
+    },
+    {
+      "name": "hashnode",
+      "link": "https://techjourneyer.hashnode.dev/",
+      "type": "cib"
+    },
+    {
+      "name": "leetcode",
+      "link": "https://leetcode.com/tlmy03/",
+      "type": "cib"
+    }
+  ]

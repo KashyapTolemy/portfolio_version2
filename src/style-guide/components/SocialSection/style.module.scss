@@ -1,0 +1,14 @@
+@use "../../../styles/mixins.scss";
+
+.socials
+{
+    padding-top: 15%;
+    a{
+        padding: 1rem;
+        svg{
+            height: 1.5rem ;
+            width: 1.5rem ;
+        }
+    }
+    
+}
