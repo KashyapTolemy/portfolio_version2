@@ -2,27 +2,29 @@
 
 .contact_container {
     height: 100vh;
-
+    margin-left: 0.5rem;
     .contact_form {
         display: flex;
         flex-direction: column;
         padding-top: 15%;
-
         .contact_item {
             padding-bottom: 3%;
-
+            
             .contact_title {
                 font-size: 1.3rem;
+                color:rgb(173, 198, 234);
+                padding-bottom: 1%;
             }
 
             .contact_place {
                 height: 2rem;
                 width: 15rem;
                 border: 0rem;
-                border-bottom: 0.1rem solid black;
+                border-bottom: 0.1rem solid white;
                 padding: 1%;
                 font-size: 1.2rem;
-
+                background: transparent;
+                color:white;
                 &::placeholder {
                     font-size: 1.2rem;
                 }
@@ -34,15 +36,20 @@
 
             .contact_title {
                 font-size: 1.3rem;
+                color:rgb(173, 198, 234);
+                padding-bottom: 1%;
             }
 
 
             .contact_area {
                 padding: 2%;
                 font-size: 1.3rem;
-
+                background: transparent;
+                color:white;
+                width: 90%;
                 &::placeholder {
                     font-size: 1.2rem;
+                    color:rgba(255, 255, 255, 0.447);
                 }
             }
         }
@@ -51,7 +58,20 @@
             width: 10rem;
             height: 4rem;
             font-size: 2rem;
-            border-radius: 0.2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 5%;
+            background: transparent;
+            color:rgb(173, 198, 234);
+            border: 0.01rem solid rgba(255, 255, 255, 0.164);
+            &:hover {
+                box-shadow: 0 0 0.1rem rgb(173, 198, 234);
+            }
         }
+    }
+}
+
+@media (max-width: 900px) {
+    .contact_container{
+        padding-left: 5%;
     }
 }

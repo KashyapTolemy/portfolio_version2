@@ -1,9 +1,14 @@
 @use "../../../styles/mixins.scss";
 
+$quantity: 25;
+$color: rgb(173, 198, 234);
+
 .container {
     display: flex;
     flex-direction: row;
+    background: rgb(5, 13, 37);
 }
+
 
 @media (max-width: 900px) {
     .container {

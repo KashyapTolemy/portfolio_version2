@@ -13,7 +13,7 @@ const SocialSection = () => {
            <div className={styles.socials}>
             {Socials.map((ele) => {
               return (
-                <a href={ele.link} target="_blank" title={ele.name}>
+                <a href={ele.link} target="_blank" title={ele.name} key={ele.id}>
                   <Icon icon={`cib:${ele.name}`} color="#579" />
                 </a>
               );

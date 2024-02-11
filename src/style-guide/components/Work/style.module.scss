@@ -1,40 +1,70 @@
 @use "../../../styles/mixins.scss";
 
 .work_container {
-    height: 100vh;
-    padding-top: 3%;
+    height: max-content;
+    padding: 2%;
+    
     .item_container {
         border: 0.01rem solid black;
         display: flex;
         flex-direction: row;
         padding: 2.5%;
         margin-bottom: 5%;
-        border-radius: 0.2rem;
+        border-radius: 0.5rem;
+        border: 0.01rem solid rgba(255, 255, 255, 0.164);
+        backdrop-filter: blur(10px);
+
         .item_image {
             height: 10rem;
             width: 17rem;
             padding-right: 1rem;
         }
-        .item_title
-        {
+
+        .item_title {
             font-size: 1.2rem;
             font-weight: 700;
             margin-bottom: 3%;
+            color: rgb(173, 198, 234);
         }
-        .item_techstack
-        {
+
+        .item_description {
+            color: rgb(130, 145, 166);
+        }
+
+        .item_techstack {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            .tech{
+
+            .tech {
+                color: rgb(145, 115, 232);
+                ;
                 font-size: 0.8rem;
-                border: 0.01rem solid black;
+                border: 0.01rem solid rgba(173, 198, 234, 0.708);
+                font-weight: 700;
                 border-radius: 50%;
                 padding-left: 3%;
                 padding-right: 3%;
                 padding-top: 1%;
                 padding-bottom: 1%;
                 margin: 1%;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .work_container {
+        height: max-content;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        .item_container
+        {
+            flex-direction: column;
+            margin-bottom: 10%;
+            .item_image,.item_title,.item_description,.item_techstack {
+                margin-bottom: 5%;
             }
         }
     }

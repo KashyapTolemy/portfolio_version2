@@ -7,18 +7,20 @@
     .nav_links {
         display: flex;
         flex-direction: column;
-
+        width: 15rem;
         a {
             text-decoration: none;
             padding-bottom: 1rem;
             transition: transform 0.3s, opacity 0.3s;
             font-size: 1.15rem;
-
-            &:active {
+            color: rgb(173, 198, 234);
+            &.activeLink {
+                color:rgb(145, 115, 232);
                 transform: scale(1.1) translateX(2rem);
             }
 
             &:hover {
+                color:rgb(145, 115, 232);
                 transform: scale(1.1) translateX(2rem);
             }
         }

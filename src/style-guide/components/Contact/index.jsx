@@ -24,6 +24,7 @@ const Contact = () => {
                             name="name"
                             className={styles.contact_place}
                             onChange={(e) => setName(e.target.value)}
+                            required
                         />
                     </div>
                     <div className={styles.contact_item}>
@@ -35,19 +36,21 @@ const Contact = () => {
                             name="email"
                             className={styles.contact_place}
                             onChange={(e) => setEmail(e.target.value)}
+                            required
                         />
                     </div>
                     <div className={styles.contact_areaitem}>
-                        <div className={styles.contact_title}>LETS COOK SOMETHING TOGETHER</div>
+                        <div className={styles.contact_title}>LET'S COOK SOMETHING TOGETHER</div>
                         <textarea
                             name="msg"
                             id="msg"
-                            cols="100"
+                            cols="30"
                             rows="10"
                             placeholder="How you Doin'"
                             className={styles.contact_area}
                             value={msg}
                             onChange={(e) => setMsg(e.target.value)}
+                            required
                         ></textarea>
                     </div>
                     <button type="submit" className={styles.contact_submit}>
