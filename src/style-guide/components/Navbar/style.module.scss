@@ -12,15 +12,15 @@
             text-decoration: none;
             padding-bottom: 1rem;
             transition: transform 0.3s, opacity 0.3s;
-            font-size: 1.15rem;
-            color: rgb(173, 198, 234);
+            font-size: 1.3rem;
+            color: var(--font-color-2);
             &.activeLink {
-                color:rgb(145, 115, 232);
+                color:var(--font-color-3);
                 transform: scale(1.1) translateX(2rem);
             }
 
             &:hover {
-                color:rgb(145, 115, 232);
+                color:var(--font-color-1);
                 transform: scale(1.1) translateX(2rem);
             }
         }

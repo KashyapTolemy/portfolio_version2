@@ -5,15 +5,14 @@
     padding: 2%;
     
     .item_container {
-        border: 0.01rem solid black;
         display: flex;
         flex-direction: row;
         padding: 2.5%;
         margin-bottom: 5%;
         border-radius: 0.5rem;
-        border: 0.01rem solid rgba(255, 255, 255, 0.164);
+        border: 0.01rem solid var(--border-color-1);
         backdrop-filter: blur(10px);
-
+        z-index: 1;
         .item_image {
             height: 10rem;
             width: 17rem;
@@ -24,11 +23,11 @@
             font-size: 1.2rem;
             font-weight: 700;
             margin-bottom: 3%;
-            color: rgb(173, 198, 234);
+            color: var(--font-color-1);
         }
 
         .item_description {
-            color: rgb(130, 145, 166);
+            color: var(--font-color-2);
         }
 
         .item_techstack {
@@ -37,10 +36,9 @@
             flex-wrap: wrap;
 
             .tech {
-                color: rgb(145, 115, 232);
-                ;
+                color: var(--font-color-3);
                 font-size: 0.8rem;
-                border: 0.01rem solid rgba(173, 198, 234, 0.708);
+                border: 0.01rem solid var(--border-color-2);
                 font-weight: 700;
                 border-radius: 50%;
                 padding-left: 3%;
@@ -61,10 +59,16 @@
         padding-right: 5%;
         .item_container
         {
+            align-items: center;
             flex-direction: column;
             margin-bottom: 10%;
-            .item_image,.item_title,.item_description,.item_techstack {
+            .item_title,.item_description,.item_techstack {
                 margin-bottom: 5%;
+            }
+            .item_image
+            {
+                margin-bottom: 5%;
+                padding-right: 0;
             }
         }
     }

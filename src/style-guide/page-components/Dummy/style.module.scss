@@ -1,14 +1,42 @@
 @use "../../../styles/mixins.scss";
 
-$quantity: 25;
-$color: rgb(173, 198, 234);
 
 .container {
-    display: flex;
-    flex-direction: row;
-    background: rgb(5, 13, 37);
+    position: relative;
+    
+    background: var(--bg-1);
+    overflow-y: hidden;
+    .cursor {
+        position: absolute;
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(to right, rgba(144, 115, 232, 0.187), rgba(173, 198, 234, 0.164));
+        animation: cursor_animate 20s linear infinite;
+        backdrop-filter: blur(4rem);
+    }
 }
 
+@keyframes cursor_animate {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        scale: 1 1.1;
+    }
+
+    75% {
+        scale: 1.1 1;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
 
 @media (max-width: 900px) {
     .container {

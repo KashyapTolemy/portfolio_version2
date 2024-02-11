@@ -1,12 +1,12 @@
 @use "../../../styles/mixins.scss";
 
-.about_container{
+.about_container {
     padding-top: 15%;
     padding-left: 2%;
     padding-right: 2%;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     height: 100vh;
-    color: rgb(130, 145, 166);
+    color: var(--font-color-2);
 }
 
 @media (max-width: 900px) {

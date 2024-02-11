@@ -1,15 +1,17 @@
 @use "../../../styles/mixins.scss";
 
-.socials
-{
+.socials {
     padding-top: 15%;
     padding-bottom: 15%;
-    a{
+
+    a {
         padding-right: 2rem;
-        svg{
-            height: 1.5rem ;
-            width: 1.5rem ;
+
+        svg {
+            height: 1.5rem;
+            width: 1.5rem;
+            color: var(--font-color-1)
         }
     }
-    
+
 }

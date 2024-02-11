@@ -1,0 +1,15 @@
+
+.main_container{
+    backdrop-filter: blur(4rem);
+    // height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
+@media (max-width: 900px) {
+    .main_container {
+        display: flex;
+        flex-direction: column;
+    }
+}

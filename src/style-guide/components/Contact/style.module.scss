@@ -12,7 +12,7 @@
             
             .contact_title {
                 font-size: 1.3rem;
-                color:rgb(173, 198, 234);
+                color:var(--font-color-1);
                 padding-bottom: 1%;
             }
 
@@ -20,11 +20,11 @@
                 height: 2rem;
                 width: 15rem;
                 border: 0rem;
-                border-bottom: 0.1rem solid white;
+                border-bottom: 0.1rem solid var(--white);
                 padding: 1%;
                 font-size: 1.2rem;
                 background: transparent;
-                color:white;
+                color:var(--white);
                 &::placeholder {
                     font-size: 1.2rem;
                 }
@@ -36,7 +36,7 @@
 
             .contact_title {
                 font-size: 1.3rem;
-                color:rgb(173, 198, 234);
+                color:vr(--font-color-1);
                 padding-bottom: 1%;
             }
 
@@ -45,11 +45,11 @@
                 padding: 2%;
                 font-size: 1.3rem;
                 background: transparent;
-                color:white;
+                color: var(--white);
                 width: 90%;
                 &::placeholder {
                     font-size: 1.2rem;
-                    color:rgba(255, 255, 255, 0.447);
+                    color:var(--placeholder-color);
                 }
             }
         }
@@ -61,10 +61,10 @@
             border-radius: 0.5rem;
             margin-bottom: 5%;
             background: transparent;
-            color:rgb(173, 198, 234);
-            border: 0.01rem solid rgba(255, 255, 255, 0.164);
+            color:var(--font-color-1);
+            border: 0.01rem solid var(--border-color-1);
             &:hover {
-                box-shadow: 0 0 0.1rem rgb(173, 198, 234);
+                box-shadow: 0 0 0.1rem var(--font-color-1);
             }
         }
     }
