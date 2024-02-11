@@ -1,0 +1,57 @@
+@use "../../../styles/mixins.scss";
+
+.contact_container {
+    height: 100vh;
+
+    .contact_form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
+
+        .contact_item {
+            padding-bottom: 3%;
+
+            .contact_title {
+                font-size: 1.3rem;
+            }
+
+            .contact_place {
+                height: 2rem;
+                width: 15rem;
+                border: 0rem;
+                border-bottom: 0.1rem solid black;
+                padding: 1%;
+                font-size: 1.2rem;
+
+                &::placeholder {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .contact_areaitem {
+            padding-bottom: 3%;
+
+            .contact_title {
+                font-size: 1.3rem;
+            }
+
+
+            .contact_area {
+                padding: 2%;
+                font-size: 1.3rem;
+
+                &::placeholder {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .contact_submit {
+            width: 10rem;
+            height: 4rem;
+            font-size: 2rem;
+            border-radius: 0.2rem;
+        }
+    }
+}

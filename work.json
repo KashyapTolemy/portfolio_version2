@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "BIDBAZZAR 🡭",
+      "imageSrc": "./images/bidbazzar.png",
+      "altText": "bidbazzar img",
+      "description": "Designed and developed an online auction platform which facilitates real time bidding, fostering user-driven sales capable of handling concurrent bids from multiple users.",
+      "techStack": ["JavaScript", "HTML & SCSS", "NextJS", "NodeJS", "Socket.io", "Mongoose"]
+    },
+    {
+      "id": 2,
+      "title": "EXPLOREWithABNERR 🡭",
+      "imageSrc": "./images/abnerr.png",
+      "altText": "EXPLOREWithABNERR img",
+      "description": "Freelance project where I developed the personal portfolio website for two exceptional photographer clients, crafting tailored online showcases for their work.",
+      "techStack": ["JavaScript", "HTML & SCSS", "NextJS", "NodeJS", "Mongoose"]
+    },
+    {
+      "id": 3,
+      "title": "Chatify 🡭",
+      "imageSrc": "./images/chatify.png",
+      "altText": "chatify img",
+      "description": "Web-based chat application with strong security, enabling users to create profiles, set avatars, and engage in real-time communication and synchronisation. ",
+      "techStack": ["JavaScript", "HTML & SCSS", "ReactJS", "NodeJS", "Socket.io", "Mongoose"]
+    }
+  ]
+  

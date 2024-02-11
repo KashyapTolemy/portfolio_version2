@@ -4,7 +4,7 @@
 {
     width: 50vw;
     height: 100vh;
-    border: 0.1rem solid black;
+    // border: 0.1rem solid black;
     overflow-y: hidden;
 }
 
@@ -13,5 +13,6 @@
     .left_container {
         width:100vw;
         overflow-y: scroll;
+        height: max-content;
     }
 }

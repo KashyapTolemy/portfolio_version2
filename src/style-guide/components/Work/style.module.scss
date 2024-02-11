@@ -1,0 +1,41 @@
+@use "../../../styles/mixins.scss";
+
+.work_container {
+    height: 100vh;
+    padding-top: 3%;
+    .item_container {
+        border: 0.01rem solid black;
+        display: flex;
+        flex-direction: row;
+        padding: 2.5%;
+        margin-bottom: 5%;
+        border-radius: 0.2rem;
+        .item_image {
+            height: 10rem;
+            width: 17rem;
+            padding-right: 1rem;
+        }
+        .item_title
+        {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 3%;
+        }
+        .item_techstack
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .tech{
+                font-size: 0.8rem;
+                border: 0.01rem solid black;
+                border-radius: 50%;
+                padding-left: 3%;
+                padding-right: 3%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                margin: 1%;
+            }
+        }
+    }
+}
