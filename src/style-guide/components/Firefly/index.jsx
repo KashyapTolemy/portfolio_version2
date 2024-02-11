@@ -1,15 +1,32 @@
-import React from 'react';
-import styles from './style.module.scss';
-
+import React from 'react'
+import './style.module.scss'
 
 const Firefly = () => {
-  return (
-    <>
-      {[...Array(20)].map((_, index) => (
-        <div key={index} className={styles.firefly}></div>
-      ))}
-    </>
-  );
-};
+    return (
+        <div class="canvas Firefly">
+            <h1>Hi</h1>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+            <div className={styles.firefly}></div>
+        </div>
+    )
+}
 
-export default Firefly;
+export default Firefly

@@ -7,6 +7,7 @@
 
 :root {
   --bg-1: rgb(5, 13, 37);
+  --bg-2: rgba(173, 198, 234, 0.089);
   --font-color-1: rgb(173, 198, 234);
   --font-color-2: rgb(130, 145, 166);
   --font-color-3: rgb(145, 115, 232);
@@ -14,18 +15,23 @@
   --border-color-2: rgba(173, 198, 234, 0.708);
   --white: white;
   --placeholder-color: rgba(255, 255, 255, 0.447);
+  --blob-light-1: rgba(144, 115, 232, 0.107);
+  --blob-light-2: rgba(173, 198, 234, 0.068);
 }
 
 
 [data-theme='light'] {
   --bg-1: rgb(225, 240, 218);
-  --font-color-3: rgb(41, 75, 41);
-  --font-color-2: rgb(80, 98, 58);
+  --bg-2: rgba(67, 118, 108, 0.089);
   --font-color-1: rgb(67, 118, 108);
+  --font-color-2: rgb(80, 98, 58);
+  --font-color-3: rgb(41, 75, 41);
   --border-color-1: rgba(67, 118, 108, 0.532);
   --border-color-2: rgba(0, 0, 1, 0.708);
   --white: black;
   --placeholder-color: rgba(40, 38, 38, 0.447);
+  --blob-light-1: rgba(67, 118, 108, 0.387);
+  --blob-light-2: rgba(173, 198, 234, 0.305);
 }
 
 * {

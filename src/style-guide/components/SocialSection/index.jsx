@@ -14,7 +14,7 @@ const SocialSection = () => {
             {Socials.map((ele) => {
               return (
                 <a href={ele.link} target="_blank" title={ele.name} key={ele.id}>
-                  <Icon icon={`cib:${ele.name}`} color="var(--font-color-1)" />
+                  <Icon icon={`cib:${ele.name}`}  className={styles.icon}/>
                 </a>
               );
             })}

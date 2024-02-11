@@ -3,16 +3,18 @@
 .contact_container {
     height: 100vh;
     margin-left: 0.5rem;
+
     .contact_form {
         display: flex;
         flex-direction: column;
         padding-top: 15%;
+
         .contact_item {
             padding-bottom: 3%;
-            
+
             .contact_title {
                 font-size: 1.3rem;
-                color:var(--font-color-1);
+                color: var(--font-color-1);
                 padding-bottom: 1%;
             }
 
@@ -24,7 +26,8 @@
                 padding: 1%;
                 font-size: 1.2rem;
                 background: transparent;
-                color:var(--white);
+                color: var(--white);
+
                 &::placeholder {
                     font-size: 1.2rem;
                 }
@@ -36,7 +39,7 @@
 
             .contact_title {
                 font-size: 1.3rem;
-                color:vr(--font-color-1);
+                color: var(--font-color-1);
                 padding-bottom: 1%;
             }
 
@@ -47,9 +50,10 @@
                 background: transparent;
                 color: var(--white);
                 width: 90%;
+
                 &::placeholder {
                     font-size: 1.2rem;
-                    color:var(--placeholder-color);
+                    color: var(--placeholder-color);
                 }
             }
         }
@@ -61,8 +65,9 @@
             border-radius: 0.5rem;
             margin-bottom: 5%;
             background: transparent;
-            color:var(--font-color-1);
+            color: var(--font-color-1);
             border: 0.01rem solid var(--border-color-1);
+
             &:hover {
                 box-shadow: 0 0 0.1rem var(--font-color-1);
             }
@@ -71,7 +76,7 @@
 }
 
 @media (max-width: 900px) {
-    .contact_container{
+    .contact_container {
         padding-left: 5%;
     }
 }

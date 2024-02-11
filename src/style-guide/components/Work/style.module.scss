@@ -24,10 +24,13 @@
             font-weight: 700;
             margin-bottom: 3%;
             color: var(--font-color-1);
+            flex-wrap: wrap;
+            word-break: break-all;
         }
 
         .item_description {
             color: var(--font-color-2);
+            flex-wrap: wrap;
         }
 
         .item_techstack {
@@ -40,13 +43,18 @@
                 font-size: 0.8rem;
                 border: 0.01rem solid var(--border-color-2);
                 font-weight: 700;
-                border-radius: 50%;
+                border-radius: 10px;
                 padding-left: 3%;
                 padding-right: 3%;
                 padding-top: 1%;
                 padding-bottom: 1%;
                 margin: 1%;
             }
+        }
+
+        &:hover{
+            background: var(--bg-2);
+            backdrop-filter: blur(4rem);
         }
     }
 }
