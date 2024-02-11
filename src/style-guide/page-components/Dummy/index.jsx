@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './style.module.scss';
 import Main from '@/style-guide/components/Main';
 import Theme from '@/style-guide/components/Theme';
+import Theme1 from '@/style-guide/components/Theme1';
 // import Firefly from '@/style-guide/components/Firefly';
 
 const Dummy = () => {
@@ -31,7 +32,8 @@ const Dummy = () => {
   return (
     <div className={styles.container}>
       <div className={styles.cursor}></div>
-      <Theme setTheme={setTheme} />
+      {/* <Theme setTheme={setTheme} /> */}
+      <Theme1 />
       <Main />
       {/* <Firefly /> */}
     </div>
