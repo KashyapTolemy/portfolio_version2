@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "BIDBAZZAR 🡭",
+      "title": "BIDBAZZAR",
       "link": "https://bid-bazaar-frontend.vercel.app/",
       "imageSrc": "./images/bidbazzar.webp",
       "altText": "bidbazzar img",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "title": "EXPLOREWithABNERR 🡭",
+      "title": "EXPLOREWithABNERR",
       "link": "https://explore-with-abnerr.vercel.app/",
       "imageSrc": "./images/abnerr.webp",
       "altText": "EXPLOREWithABNERR img",
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "title": "Chatify 🡭",
+      "title": "CHATIFY",
       "link": "https://chatify-qrfq.onrender.com/",
       "imageSrc": "./images/chatify.webp",
       "altText": "chatify img",
