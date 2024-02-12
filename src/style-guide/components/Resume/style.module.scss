@@ -1,0 +1,25 @@
+
+.resume_container
+{
+    margin-top: 5%;
+    .resume {
+        text-decoration: none;
+        color: var(--font-color-2);
+        border: 0.1rem solid var(--font-color-1);
+        padding: 0.5rem;
+        border-radius: 1rem;
+        &:hover{
+            color: var(--white);
+            border: 0.1rem solid var(--white);
+        }
+        .download {
+            position: relative;
+            top:0.15rem;
+            height: 1.2rem;
+            width: 1.2rem;
+            padding-top: 0.2rem;
+        }
+    }
+    
+
+}

@@ -8,24 +8,30 @@
         display: flex;
         flex-direction: column;
         width: 15rem;
+
         a {
             text-decoration: none;
             padding-bottom: 1rem;
             transition: transform 0.3s, opacity 0.3s;
             font-size: 1.3rem;
             color: var(--font-color-2);
+
             &.activeLink {
-                color:var(--font-color-3);
+                color: var(--font-color-3);
                 transform: scale(1.1) translateX(2rem);
             }
 
             &:hover {
-                color:var(--font-color-1);
+                color: var(--font-color-1);
                 transform: scale(1.1) translateX(2rem);
             }
         }
 
     }
+
+    
+
+    
 
 }
 

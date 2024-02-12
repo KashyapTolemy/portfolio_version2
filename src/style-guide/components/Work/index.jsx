@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './style.module.scss';
-import workData from '../../../../work.json';
+import WorkData from '../../../../work.json';
 
 const Work = () => {
     return (
         <>
             <div className={styles.work_container} id="works">
-                {workData.map((work) => (
+                {WorkData.map((work) => (
                     <div className={styles.item_container} key={work.id}>
                         <img src={work.imageSrc} alt={work.altText} className={styles.item_image} />
                         <div className={styles.item_text}>
@@ -20,7 +20,6 @@ const Work = () => {
                         </div>
                     </div>
                 ))}
-                <a href='https://drive.google.com/file/d/1vstJkSGVQQLMX7XTdlWv_aEHQhhO3FUr/view?usp=sharing' target="_blank" rel="noopener noreferrer" className={styles.resume}>DOWNLOAD MY COMPLETE RESUME 🡭</a>
 
             </div>
         </>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './style.module.scss';
+import Download from '../Resume/download';
 
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState('about');
@@ -12,7 +13,7 @@ const Navbar = () => {
             let currentActiveLink = 'about';
             const scrollPosition = window.scrollY;
             console.log('Scroll Position:', scrollPosition);
-        
+
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.clientHeight;
@@ -21,11 +22,11 @@ const Navbar = () => {
                     currentActiveLink = section.id;
                 }
             });
-        
+
             setActiveLink(currentActiveLink);
             console.log('Active Link:', currentActiveLink);
         };
-        
+
 
         window.addEventListener('scroll', handleScroll);
 
@@ -59,6 +60,7 @@ const Navbar = () => {
                     CONTACT
                 </a>
             </div>
+            
         </div>
     );
 };
