@@ -27,6 +27,7 @@
                 font-size: 1.2rem;
                 background: transparent;
                 color: var(--white);
+                outline: none;
 
                 &::placeholder {
                     font-size: 1.2rem;
@@ -50,6 +51,9 @@
                 background: transparent;
                 color: var(--white);
                 width: 90%;
+                outline: none;
+                border-top-right-radius: 0.5rem;
+                border-bottom-left-radius: 0.5rem;
 
                 &::placeholder {
                     font-size: 1.2rem;
@@ -67,11 +71,14 @@
             background: transparent;
             color: var(--font-color-1);
             border: 0.01rem solid var(--border-color-1);
-
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        
             &:hover {
-                box-shadow: 0 0 0.1rem var(--font-color-1);
+                box-shadow: 0 0 0.5rem var(--font-color-1);
+                transform: scale(1.02);
             }
         }
+        
     }
 }
 

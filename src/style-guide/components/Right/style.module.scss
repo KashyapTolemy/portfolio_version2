@@ -4,11 +4,12 @@
 {
     width: 50vw;
     height: 100vh;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 @media (max-width: 900px) {
     .right_container {
-        width:100vw
+        width:100vw;
+        overflow-y: scroll;
     }
 }

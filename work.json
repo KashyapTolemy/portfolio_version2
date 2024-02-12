@@ -3,7 +3,7 @@
       "id": 1,
       "title": "BIDBAZZAR 🡭",
       "link": "https://bid-bazaar-frontend.vercel.app/",
-      "imageSrc": "./images/bidbazzar.png",
+      "imageSrc": "./images/bidbazzar.webp",
       "altText": "bidbazzar img",
       "description": "Designed and developed an online auction platform which facilitates real time bidding, fostering user-driven sales capable of handling concurrent bids from multiple users.",
       "techStack": ["JavaScript", "HTML & SCSS", "NextJS", "NodeJS", "Socket.io", "Mongoose"]
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "EXPLOREWithABNERR 🡭",
       "link": "https://explore-with-abnerr.vercel.app/",
-      "imageSrc": "./images/abnerr.png",
+      "imageSrc": "./images/abnerr.webp",
       "altText": "EXPLOREWithABNERR img",
       "description": "Freelance project where I developed the personal portfolio website for two exceptional photographer clients, crafting tailored online showcases for their work.",
       "techStack": ["JavaScript", "HTML & SCSS", "NextJS", "NodeJS", "Mongoose"]
@@ -21,7 +21,7 @@
       "id": 3,
       "title": "Chatify 🡭",
       "link": "https://chatify-qrfq.onrender.com/",
-      "imageSrc": "./images/chatify.png",
+      "imageSrc": "./images/chatify.webp",
       "altText": "chatify img",
       "description": "Web-based chat application with strong security, enabling users to create profiles, set avatars, and engage in real-time communication and synchronisation. ",
       "techStack": ["JavaScript", "HTML & SCSS", "ReactJS", "NodeJS", "Socket.io", "Mongoose"]

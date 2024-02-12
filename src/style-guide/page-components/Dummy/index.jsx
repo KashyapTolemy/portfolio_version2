@@ -4,7 +4,7 @@ import styles from './style.module.scss';
 import Main from '@/style-guide/components/Main';
 import Theme from '@/style-guide/components/Theme';
 import Theme1 from '@/style-guide/components/Theme1';
-// import Firefly from '@/style-guide/components/Firefly';
+import Firefly from '@/style-guide/components/Firefly';
 
 const Dummy = () => {
   const [theme, setTheme] = useState("dark");
@@ -35,7 +35,7 @@ const Dummy = () => {
       {/* <Theme setTheme={setTheme} /> */}
       <Theme1 />
       <Main />
-      {/* <Firefly /> */}
+      <Firefly />
     </div>
   );
 };

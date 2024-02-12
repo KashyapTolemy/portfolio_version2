@@ -1,9 +1,8 @@
-$quantity: 20;
+$quantity: 20; // Define the quantity variable
 
 // Define keyframes outside .firefly
 @for $i from 1 through $quantity {
     $steps: random(12) + 16;
-    $rotationSpeed: random(10) + 8s;
 
     @keyframes move#{$i} {
         @for $step from 0 through $steps {
@@ -16,14 +15,15 @@ $quantity: 20;
 
 .firefly {
     position: fixed;
-    left: 50%;
     top: 50%;
+    left: 50%;
     width: min(0.8vw, 6px);
     height: min(0.8vw, 6px);
     margin: -0.2vw 0 0 9.8vw;
     animation: ease 200s alternate infinite;
     pointer-events: none;
     background: var(--bg-1);
+
     &::before,
     &::after {
         content: '';
@@ -41,23 +41,25 @@ $quantity: 20;
     }
 
     &::after {
-        background: var(--font-color-1);
+        background: var(--font-color-2);
         opacity: 0;
-        box-shadow: 0 0 0vw 0vw var(--font-color-2);
+        box-shadow: 0 0 0vw 0vw var(--font-color-1);
         animation: drift ease alternate infinite, flash ease infinite;
     }
 
     // Apply animations here
     @for $i from 1 through $quantity {
         &:nth-child(#{$i}) {
+            $rotationSpeed: random(10) + 8s; // Define rotation speed here
+
             animation-name: move#{$i};
 
             &::before {
-                animation-duration: #{random($rotationSpeed)};
+                animation-duration: $rotationSpeed;
             }
 
             &::after {
-                animation-duration: #{random($rotationSpeed)}, random(6000) + 5000ms;
+                animation-duration: $rotationSpeed, random(6000) + 5000ms;
                 animation-delay: 0ms, random(8000) + 500ms;
             }
         }
@@ -75,13 +77,16 @@ $quantity: 20;
 }
 
 @keyframes flash {
-    0%, 30%, 100% {
+
+    0%,
+    30%,
+    100% {
         opacity: 0;
-        box-shadow: 0 0 0vw 0vw var(--font-color-2);
+        box-shadow: 0 0 0vw 0vw var(--font-color-1);
     }
 
     5% {
         opacity: 1;
-        box-shadow: 0 0 2vw 0.4vw var(--font-color-1);
+        box-shadow: 0 0 2vw 0.4vw var(--font-color-2);
     }
 }

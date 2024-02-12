@@ -1,13 +1,13 @@
 @use "../../../styles/mixins.scss";
 
 .work_container {
-    height: max-content;
+    height: 100vh;
     padding: 2%;
-    
+    overflow-y: scroll;
     .item_container {
         display: flex;
         flex-direction: row;
-        padding: 2.5%;
+        padding: 2%;
         margin-bottom: 5%;
         border-radius: 0.5rem;
         border: 0.01rem solid var(--border-color-1);
@@ -57,6 +57,18 @@
             backdrop-filter: blur(4rem);
         }
     }
+
+    .resume {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--font-color-2);
+        // transition: transform 0.3s ease;
+        
+        &:hover {
+            color: var(--font-color-1);
+        }
+    }
+    
 }
 
 @media (max-width: 900px) {
