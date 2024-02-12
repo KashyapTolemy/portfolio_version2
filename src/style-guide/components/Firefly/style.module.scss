@@ -17,6 +17,7 @@ $quantity: 20; // Define the quantity variable
     position: fixed;
     top: 50%;
     left: 50%;
+    z-index: 2;
     width: min(0.8vw, 6px);
     height: min(0.8vw, 6px);
     margin: -0.2vw 0 0 9.8vw;
