@@ -4,7 +4,7 @@ import SunIcon from './sunicon';
 import MoonIcon from './MoonIcon'; 
 
 const Theme1 = () => {
-    const [darkMode, setDarkMode] = useState(true); // Initialize dark mode as true for default dark mode
+    const [darkMode, setDarkMode] = useState(false); // Initialize dark mode as true for default dark mode
 
     useEffect(() => {
         // Set the initial theme when the component mounts

@@ -12,9 +12,12 @@ const About = () => {
                 <br />
                 <br />
                 Beyond web development,I am deeply interested in core Computer Science fundamentals, including Operating Systems 💻, Database Management 🗃️, and DSA 👨‍💻. But wait I got a cool side too : I love watching anime (WELP I dont think that helps much) , playing video games and Jayson Tatum is my GOAT🍀🏀.
+                <br/>
+                <br />
+                Recently, I’ve also discovered a passion for photography—it’s been an exciting creative outlet! 📸 If you’re curious, you can check out some of my work on Instagram.
                 <br />
                 <br />
-                Join me on this journey of exploration and innovation as we navigate the ever-evolving landscape of technology together ⚔️.
+                Let’s navigate the ever-evolving world of technology and creativity together! ⚔️
             </div>
         </>
     )

@@ -20,6 +20,10 @@
             padding-top: 0.2rem;
         }
     }
-    
+}
 
+@media screen and (max-width: 900px) {
+    .resume_container{
+        margin-top:2rem;
+    }
 }
