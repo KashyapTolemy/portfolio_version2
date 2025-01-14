@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <>
     <div className={styles.resume_container}>
-      <a href='https://drive.google.com/file/d/1vstJkSGVQQLMX7XTdlWv_aEHQhhO3FUr/view?usp=sharing' target="_blank" rel="noopener noreferrer" className={styles.resume}>Download Resume <Download className={styles.download}/></a>
+      <a href='https://drive.google.com/file/d/1rD4f0wm8EnQj98eicsbysyz9YLIkREZk/view?usp=sharing' target="_blank" rel="noopener noreferrer" className={styles.resume}>Download Resume <Download className={styles.download}/></a>
     </div>
     </>
   )
